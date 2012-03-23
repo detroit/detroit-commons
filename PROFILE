@@ -1,0 +1,53 @@
+---
+name   : detroit-commons
+version: 0.1.0
+
+title  : Detroit Commons
+summary: Software Production Mangement Commons Collection
+created: 2012-03-23
+
+description:
+  Detroit is an advanced lifecycle build system.
+  Detroit Commons is a meta-package with requirements for
+  Detroit and most of its official plugins. Essentially, this
+  package makes Detroit a one line entry to project requirements.
+
+requirements:
+  - detroit
+  - detroit-email
+  - detroit-dnote
+  - detroit-email
+  - detroit-erbside
+  - detroit-extconf
+  - detroit-gem
+  - detroit-github
+  - detroit-locat
+  - detroit-mast
+  - detroit-minitest
+  - detroit-qed
+  - detroit-rdoc
+  #- detroit-ronn
+  - detroit-rspec
+  - detroit-syntax
+  - detroit-turn
+  - detroit-vclog
+  - detroit-yard
+  - detroit-yardstick
+
+resources:
+  home: http://rubyworks.github.com/detroit
+  code: http://github.com/rubyworks/detroit-commons
+  mail: http://groups.google.com/rubyworks-mailinglist
+
+repositories:
+  upstream: http://github.com/proutils/detroit-commons.git
+
+authors:
+  - Trans <transfire@gmail.com>
+
+organization: Detroit
+
+copyrights:
+  - Copyright (c) 2012 Thomas Sawyer (GPL3)
+
+source: PROFILE
